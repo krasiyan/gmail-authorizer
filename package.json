@@ -1,0 +1,13 @@
+{
+  "name": "gmail-authorizer",
+  "version": "0.0.1",
+  "private": true,
+  "author": "",
+  "main": "index.js",
+  "dependencies": {
+    "googleapis": "2.0.2"
+  },
+  "engines": {
+    "node": ">= 0.10.32"
+  }
+}
