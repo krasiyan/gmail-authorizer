@@ -1,6 +1,7 @@
-1. Run `npm install`
-2. Edit `index.js` and set `APP_ID` and `APP_SECRET`
-3. `node index.js`
-4. Open the web link, give permissions and copy the `?code` query parameter value after the redirect to `localhost`
-5. Paste the `code` into the console
+1. Use a recent NodeJS version (>=0.10.30)
+2. Run `npm install`
+3. Copy `config.json.sample` to `config.json` and set `app_id` and `app_secret` accordingly
+3.5. If needed change `port` to something different
+4. Run `node index.js`
+5. Open the web link, give permissions, get redirected, copy tokens
 6. Profit?!
